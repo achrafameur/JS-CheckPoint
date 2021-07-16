@@ -1,0 +1,144 @@
+.width{
+    width: 80%;
+    margin: auto;
+}
+
+.div1{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+    z-index: 10;
+}
+.div1 h1{
+    width: 300px;
+    height : 30px;
+    font-family: Work Sans,Arial,sans-serif;
+    color: lightseagreen;
+    text-decoration: none;
+}
+.nav-link1{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Work Sans,Arial,sans-serif;
+}
+div>ul>li{
+    display: inline;
+}
+.drop{
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    line-height: 50px;
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(202, 15, 15, 0.3);
+    overflow-x: scroll;
+}
+.drop li{
+    margin-right: 30px;
+}
+.dropdown-1{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-1{
+    display: block;
+}
+
+
+
+
+
+.offices__slider{
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+.office__inner{
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    color: #747474;
+    box-shadow: 0 5px 10px 0 transparent;
+}
+.office__desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.offices__add{
+    text-align: center;
+}
+.type{
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 1.125em;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+.office__image img{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 300px;
+}
+.btn{
+    margin-bottom: 7px;
+    font-size: 2rem;
+    background-color: dimgrey;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+
+/* Java script Part */
+.heart_clicked {
+    color:red;
+}
+.fa-times{
+    text-shadow:1px 1px 2px #000000;
+}
+.heart_clicked {
+    color:red;
+}
+.fa-heart-o:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.item-purchase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+}
+.item-purchase-quantity{
+    width: 30px;
+    height: 20px;
+}
+.item-purchase-img {
+    width: 50px;
+    height: 50px;
+}
